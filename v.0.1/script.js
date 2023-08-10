@@ -139,7 +139,7 @@ imageForm.addEventListener("submit", (e) => {
   if (lightTheme.checked) {
     if (longDimension.checked) {
       var img = new Image();
-      img.src = "file:///C:/Users/freed/Desktop/Sport%20Forecaster.co.uk/Website/images/predictorTables/EPL/202324/EPL_202324_Predictor_white_long.jpg"
+      img.src = "https://adzlaird.github.io/sportSeer/images/predictorTables/EPL/202324/EPL_202324_Predictor_white_long.jpg"
       img.onload = function () {
         ctx.drawImage(img, 0, 0);
 
@@ -155,7 +155,7 @@ imageForm.addEventListener("submit", (e) => {
   } else if (darkTheme.checked) {
     if (longDimension.checked) {
       var img = new Image();
-      img.src = "file:///C:/Users/freed/Desktop/Sport%20Forecaster.co.uk/Website/images/predictorTables/EPL/202324/EPL_202324_Predictor_dark_long.jpg"
+      img.src = "https://adzlaird.github.io/sportSeer/images/predictorTables/EPL/202324/EPL_202324_Predictor_dark_long.jpg"
       img.onload = function () {
         ctx.drawImage(img, 0, 0);
 
