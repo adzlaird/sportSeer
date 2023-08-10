@@ -171,7 +171,7 @@ imageForm.addEventListener("submit", (e) => {
   }
 
   var tweet = document.getElementById("tweetForm");
-  var tweetString = "https://twitter.com/intent/tweet?via=adzlaird&text=My%20predictions%20for%20the%202023/24%20EPL%20Season%21%0a%0a";
+  var tweetString = "https://twitter.com/intent/tweet?via=sport_seer&text=My%20predictions%20for%20the%202023/24%20EPL%20Season%21%0a%0a";
   for (let i = 0; i < 3; i++) {
       var teamNameArray = eplListItems[i].innerText.split(/(?<=^\S+)\s/);
       var teamName = teamNameArray[teamNameArray.length - 1].slice(1);
