@@ -139,7 +139,7 @@ imageForm.addEventListener("submit", (e) => {
   if (lightTheme.checked) {
     if (longDimension.checked) {
       var img = new Image();
-      img.src = "https://adzlaird.github.io/sportSeer/images/predictorTables/EPL/202324/EPL_202324_Predictor_white_long.jpg"
+      img.src = "https://adzlaird.github.io/sportSeer/images/predictorTables/EPL/202324/EPL_202324_Predictor_white_long.jpg";
       img.onload = function () {
         ctx.drawImage(img, 0, 0);
 
@@ -155,7 +155,7 @@ imageForm.addEventListener("submit", (e) => {
   } else if (darkTheme.checked) {
     if (longDimension.checked) {
       var img = new Image();
-      img.src = "https://adzlaird.github.io/sportSeer/images/predictorTables/EPL/202324/EPL_202324_Predictor_dark_long.jpg"
+      img.src = "https://adzlaird.github.io/sportSeer/images/predictorTables/EPL/202324/EPL_202324_Predictor_dark_long.jpg";
       img.onload = function () {
         ctx.drawImage(img, 0, 0);
 
@@ -171,7 +171,7 @@ imageForm.addEventListener("submit", (e) => {
   }
 
   var tweet = document.getElementById("tweetForm");
-  var tweetString = "https://twitter.com/intent/tweet?via=adzlaird&text=My%20predictions%20for%20the%202023/24%20EPL%20Season%21%0a%0a"
+  var tweetString = "https://twitter.com/intent/tweet?via=adzlaird&text=My%20predictions%20for%20the%202023/24%20EPL%20Season%21%0a%0a";
   for (let i = 0; i < 3; i++) {
       var teamNameArray = eplListItems[i].innerText.split(/(?<=^\S+)\s/);
       var teamName = teamNameArray[teamNameArray.length - 1].slice(1);
